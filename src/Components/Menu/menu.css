@@ -1,14 +1,10 @@
 .general_menu{
     display: flex;
-    /* flex-direction: column; */
-    /* max-width: 15%; */
     color: #000;
-    /* border-right: 1px solid #000; */
     justify-content: space-between;
     align-items: center;
     text-align: center;
     padding: 20px;
-    /* width: 300px; */
 }
 
 .menu_coin{

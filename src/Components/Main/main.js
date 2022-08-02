@@ -5,20 +5,62 @@ const Main = () => {
     return (
         <div className="main_container">
             <h2>Registro de Competições</h2>
-            <div className="car">
-                <h3>Carro 1</h3>
-            </div>
+            <h3 className="subtitle">Classificação de 2022</h3>
+            <div>
 
-            <div className="pilots">
-                <h3>Piloto 1</h3>
-            </div>
+                <table className="table">
+                    <thead>
+                        <tr>
+                            <th>Posição</th>
+                            <th>Piloto</th>
+                            <th>Carro</th>
+                            <th>Equipe</th>
+                            <th>Evento</th>
 
-            <div className="Teams">
-                <h3>Equipe 1</h3>
-            </div>
+                        </tr></thead>
+                    <tr>
+                        <td>1</td>
+                        <td>Chase Elliot</td>
+                        <td>Camaro</td>
+                        <td>Chevrolet</td>
+                        <td>Nascar Cup Series</td>
 
-            <div className="events">
-                <h3>Evento 1</h3>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>R. Blaney</td>
+                        <td>Mustang</td>
+                        <td>Ford</td>
+                        <td>Nascar Cup Series</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>R. Chastain</td>
+                        <td>Camaro</td>
+                        <td>Chevrolet</td>
+                        <td>Nascar Cup Series</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>M. Truex Jr.</td>
+                        <td>Camry</td>
+                        <td>Toyota</td>
+                        <td>Nascar Cup Series</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>K. Larson</td>
+                        <td>Camaro</td>
+                        <td>Chevrolet</td>
+                        <td>Nascar Cup Series</td>
+                    </tr>
+                </table>
+
+                <button className="button_race">CLique para ver outras corridas e eventos</button>
+
             </div>
         </div>
     )

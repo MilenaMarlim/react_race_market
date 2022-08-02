@@ -1,0 +1,24 @@
+.main_container h2{
+    text-align: center;
+    border: 1px solid
+}
+
+.subtitle{
+    text-align: center;
+    box-shadow: none;
+    border-top: 0.4px solid #FFF2E7
+    
+}
+
+.button_race {
+    background-color: rgb(141, 74, 100);
+    width: 30%;
+    height: 60px;
+    border: none;
+    color: rgb(250, 244, 244);
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px 0px #2e012440;
+    cursor: pointer;
+}
