@@ -1,0 +1,29 @@
+.general_header{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+}
+
+.access{
+   display: flex;
+   align-items:center;
+
+}
+
+.access h2{
+    color: #000;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.general_header .item{
+    cursor:pointer;
+}
+
+.header_title{
+    font-family: 'Dancing Script', cursive;
+}
