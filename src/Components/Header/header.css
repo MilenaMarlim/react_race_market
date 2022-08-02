@@ -11,7 +11,8 @@
 }
 
 .access h2{
-    color: #000;
+    color: 
+    #44b190;
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
@@ -24,6 +25,7 @@
     cursor:pointer;
 }
 
-.header_title{
+.header_title h1{
     font-family: 'Dancing Script', cursive;
+    color: #1c6c44;
 }

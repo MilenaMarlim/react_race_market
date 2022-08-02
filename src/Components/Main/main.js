@@ -59,7 +59,7 @@ const Main = () => {
                     </tr>
                 </table>
 
-                <button className="button_race">CLique para ver outras corridas e eventos</button>
+                <button className="button_race">Clique para ver outras corridas e eventos</button>
 
             </div>
         </div>

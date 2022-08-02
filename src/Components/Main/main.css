@@ -11,7 +11,7 @@
 }
 
 .button_race {
-    background-color: rgb(141, 74, 100);
+    background-color: #44b190;
     width: 30%;
     height: 60px;
     border: none;
@@ -21,4 +21,29 @@
     border-radius: 20px;
     box-shadow: 4px 5px 4px 0px #2e012440;
     cursor: pointer;
+    margin: 30px 30px;
+}
+
+@keyframes bounce{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px0);
+    }
+}
+
+.button_race:hover {
+    background: rgba(205, 227, 245, 0.53);
+    transition: ease-in-out 0.3s;
+    animation: bounce 1s;
+    color: 
+    #44b190;
 }
