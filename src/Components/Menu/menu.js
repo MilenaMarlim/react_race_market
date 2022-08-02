@@ -9,18 +9,17 @@ const Menu = () => {
                 <div className="menu_sets">
                     <h3 className="item">Mercado</h3>
                     <h3 className="item">Conta</h3>
-                    <h3 className="item">Transferência</h3>
-                    <h3 className="item">Configurações</h3>
+                    <h3 className="item">Corridas em andamento</h3>
+                    <h3 className="item">Corridas finalizadas</h3>
+                    <h3 className="item">Corridas futuras</h3>
+                    <h3 className="item">Moedas</h3>
                 </div>
 
                 <div className="menu_invitation">
                     <h3 className="item">Convide Amigos</h3>
                 </div>
 
-                <div className="menu_coin">
-                    <h3 className="item">Moeda</h3>
-                    <p className="item">USD</p>
-                </div>
+                
             </div>
 
             <div>

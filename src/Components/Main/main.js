@@ -5,8 +5,6 @@ const Main = () => {
     return (
         <div className="main_container">
             <h2>Registro de Competições</h2>
-            <h3 className="subtitle">Classificação de 2022</h3>
-            <div>
 
                 <table className="table">
                     <thead>
@@ -17,7 +15,8 @@ const Main = () => {
                             <th>Equipe</th>
                             <th>Evento</th>
 
-                        </tr></thead>
+                        </tr>
+                    </thead>
                     <tr>
                         <td>1</td>
                         <td>Chase Elliot</td>
@@ -60,8 +59,6 @@ const Main = () => {
                 </table>
 
                 <button className="button_race">Clique para ver outras corridas e eventos</button>
-
-            </div>
         </div>
     )
 }

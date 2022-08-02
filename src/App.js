@@ -1,6 +1,7 @@
 import Header from "./Components/Header/header"
 import Menu from "./Components/Menu/menu"
 import Main from "./Components/Main/main"
+import Footer from "./Components/Footer/footer"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <Header/>
     <Menu/>
     <Main/>
+    <Footer/>
     
     </>
   );
