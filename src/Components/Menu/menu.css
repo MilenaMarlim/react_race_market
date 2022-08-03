@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+
 .general_menu{
     display: flex;
     color: #000;
@@ -27,4 +30,31 @@ h3{
 
 .general_menu h3:hover{
     color: #1c6c44;
+}
+
+.text{
+    font-family: 'Dancing Script', cursive;
+    width: 60%;
+    position: absolute;
+}
+
+.item_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_main h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+@media(max-width: 768px){
+    .general_menu{
+        flex-direction: column;
+        flex-wrap: wrap;
+ } 
 }

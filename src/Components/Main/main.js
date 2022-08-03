@@ -14,7 +14,6 @@ const Main = () => {
                             <th>Carro</th>
                             <th>Equipe</th>
                             <th>Evento</th>
-
                         </tr>
                     </thead>
                     <tr>
@@ -23,7 +22,6 @@ const Main = () => {
                         <td>Camaro</td>
                         <td>Chevrolet</td>
                         <td>Nascar Cup Series</td>
-
                     </tr>
                     <tr>
                         <td>2</td>
@@ -57,8 +55,6 @@ const Main = () => {
                         <td>Nascar Cup Series</td>
                     </tr>
                 </table>
-
-                <button className="button_race">Clique para ver outras corridas e eventos</button>
         </div>
     )
 }

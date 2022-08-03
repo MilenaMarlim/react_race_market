@@ -22,7 +22,10 @@ const Menu = () => {
                 
             </div>
 
-            <div>
+            <div className="item_main">
+                <h2 className="text">
+                    Sua maior fonte de informação de corridas em tempo real!
+                </h2>
                 <Image/>
             </div>
         </div>
