@@ -21,6 +21,10 @@
     letter-spacing: 3px;
 }
 
+.access .item:hover{
+    color: #000;
+}
+
 .general_header .item{
     cursor:pointer;
 }
