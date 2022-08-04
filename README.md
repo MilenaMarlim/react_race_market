@@ -14,7 +14,7 @@ O desafio aqui foi construir uma interface para uma aplicação blockchain. Essa
   
  
     JSX 
-    Componentes 
+    Components 
     Props 
 
 
